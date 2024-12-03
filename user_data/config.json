@@ -209,4 +209,9 @@
     "reduce_df_footprint": false,
     "dataformat_ohlcv": "feather",
     "dataformat_trades": "feather"
+},
+"frequi": {
+    "enabled": false,
+    "host": "0.0.0.0",
+    "port": 8080
 }
