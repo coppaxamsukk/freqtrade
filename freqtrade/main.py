@@ -7,7 +7,7 @@ Read the documentation to know what cli arguments you need.
 import logging
 import sys
 from typing import Any
-
+from keep_alive import keep_alive
 
 # check min. python version
 if sys.version_info < (3, 10):  # pragma: no cover  # noqa: UP036
