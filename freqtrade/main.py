@@ -71,6 +71,6 @@ def main(sysargv: list[str] | None = None) -> None:
     finally:
         sys.exit(return_code)
 
-
+keep_alive.keep_alive()
 if __name__ == "__main__":  # pragma: no cover
     main()
